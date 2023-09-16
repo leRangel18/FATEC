@@ -86,7 +86,7 @@ function hobbiesPessoais() {
   function main() {
     let nome = "";
     while (true) {
-      nome = prompt("Nome do cliente (ou 'nc' para encerrar o programa):");
+      nome = prompt("Digite o nome do cliente (ou 'nc' para encerrar o programa):");
       if (nome.toLowerCase() === "nc") {
         break; 
       }
