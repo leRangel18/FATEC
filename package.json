@@ -1,5 +1,24 @@
 {
+  "name": "fatec-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "atvd1208.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leRangel18/FATEC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leRangel18/FATEC/issues"
+  },
+  "homepage": "https://github.com/leRangel18/FATEC#readme",
   "dependencies": {
+    "chalk": "^5.3.0",
     "prompt-sync": "^4.2.0"
   }
 }

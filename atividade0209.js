@@ -1,4 +1,5 @@
-const prompt = require("prompt-sync")()
+import PromptSync from "prompt-sync"
+const prompt = PromptSync()
 
 //ex01
 
@@ -65,6 +66,7 @@ function maiorMenor(lista) {
   
   const listaNum = [15, 53, 78, 3, 12, 8];
   maiorMenor(listaNum);
+  console.log('\n');
 
 //ex04
 
